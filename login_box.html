@@ -1,0 +1,104 @@
+﻿<html>
+
+
+
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="foundation/css/foundation.css">
+  <title>Identification | Bouchère Telecom</title>
+</head>
+
+<body>
+<nav class="top-bar" data-topbar>
+  <ul class="title-area">
+    <li class="name">
+      <a href="index.html"><img src="images/logo.png" alt="Logo de Bouchere Telecom" class="logo" width="200"></a>
+    </li>
+    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+  </ul>
+
+  <section class="top-bar-section">
+    <ul class="right">
+      <li class="active"><a href="espace_client.html">Espace Client</a></li>
+      <li class="has-dropdown">
+        <a href="#">Boutique</a>
+        <ul class="dropdown">
+          <li><a href="forfaits.html">Forfaits</a></li>
+          <li><a href="box.html">La Box</a></li>
+          <li><a href="pack.html">Le Pack</a></li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+</nav><br>
+
+<div class="row">
+  <div class="small-12 medium-12 large-5 columns">
+      <nav class="breadcrumbs">
+        <a href="index.html">Accueil</a>
+        <a href="box.html">La Box</a>
+        <a href="facture.html">Confirmation</a>
+        <a href="facture.html" class="current">Inscription</a>
+      </nav>
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="small-12 medium-6 large-4 columns">
+    <div class="panel">
+
+      <div class="row">
+        <div class="small-8 large-12 columns">
+          <label for="login">Login :</label><br>
+          <input type="text" id="login">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="small-8  large-12 columns">
+          <label for="password" >Mot de passe :</label><br>
+          <input type="password" id="password">
+        </div>
+      </div>
+      <a href="inscription.html" id="link_inscription"> >> Se créer un compte</a><br>
+      <a href="confirmation.html"><input type="submit" value="Se connecter" class="button" id="se_connecter"></a>
+    </div>
+  </div>
+</div>
+
+ <div class="panel" id="footer">
+     <div class="row">
+       <div class="large-4 columns">
+         <h3>LA BOX</h3>
+         <ul>
+           <li><a href="box.html">Internet</a></li>
+           <li><a href="">Informations légales</a></li>
+         </ul>
+       </div>
+       <div class="large-4 columns">
+         <h3>LE PACK</h3>
+         <ul>
+           <li><a href="pack.html">Internet+Mobile</a></li>
+           <li><a href="">Informations légales</a></li>
+         </ul>
+       </div>
+       <div class="large-4 columns">
+         <h3>Espace Client</h3>
+         <ul>
+           <li><a href="info_conso.html">Info conso</a></li>
+           <li><a href="">Informations légales</a></li>
+         </ul>
+       </div>
+      </div>
+ </div>
+
+
+<script src="foundation/js/vendor/jquery.js"></script>
+<script src="foundation/js/foundation.min.js"></script>
+<script>
+  $(document).foundation();
+</script>
+
+</body>
+</html>

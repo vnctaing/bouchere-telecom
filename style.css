@@ -1,0 +1,118 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+#logo{
+  padding-left: 20px;
+}
+
+#col1, #col2{
+  font-family: Avenir;
+}
+
+#col1{
+  background: #008cba
+;
+}
+
+#col2 {
+  background: #222222;
+  height: 333px;
+}
+
+#col1 h2{
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+}
+
+#col2 h2{
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+}
+
+#col1:hover{
+  background: #e54d34;
+}
+
+#col2:hover{
+  background: #e54d34;
+}
+
+
+#description_mobile,#description_pack,#descrption_box{
+  color : #ffffff;
+}
+
+#offre_mobile{
+  padding: 10%;
+  padding-left: 40%;
+}
+
+#offre_pack{
+  padding: 10%;
+  padding-left: 25%;
+}
+
+
+ul{
+  list-style: none;
+}
+
+.example-orbit img {
+  margin: 0 auto;
+}
+
+.orbit-wrapper {
+  padding: 0 0.9375rem;
+}
+
+#essentiel:hover{
+  box-shadow: 0px 0px 10px #254e69;
+}
+
+#vingtquatre:hover{
+  box-shadow: 0px 0px 10px #254e69;
+}
+
+#liberte:hover{
+  box-shadow: 0px 0px 10px #254e69;
+}
+
+#souscrire{
+  background-image: url('images/pictogrammes/souscrire.png');
+}
+
+#souscrire:hover{
+  background-image: url("images/pictogrammes/souscrire_hover.png");
+}
+
+.breadcrumbs{
+  margin : 30px auto;
+}
+
+#link_inscription{
+  margin: 10 auto;
+}
+
+#se_connecter{
+  margin: 10 auto;
+}
+
+#box2{
+  color: #ffffff;
+}
+.box{
+  color: #008cba;
+}
+
+
+#footer{
+  margin : 30 auto -10;
+}
+
+#box_illustration{
+  width: 300px;
+}
